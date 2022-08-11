@@ -4,3 +4,7 @@
 ## 0. Inline styling
 
 0-index.html
+
+## 1. Head styling 
+
+1-index.html
