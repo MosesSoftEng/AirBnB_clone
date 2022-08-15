@@ -1,0 +1,39 @@
+.filters {
+    background-color: #ffffff;
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    border: solid 1px #DDDDDD;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+.locations, .amenities {
+    height: 100%;
+    width: 25%;
+    float: left;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.locations {
+    border-right: solid 1px #DDDDDD;
+}
+
+.locations h3, .amenities h3 {
+    line-height: 14px;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+}
+
+.locations h4, .amenities h4 {
+    line-height: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0;
+}
