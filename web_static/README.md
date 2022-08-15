@@ -13,4 +13,6 @@
 
 2-index.html, styles/2-common.css, styles/2-header.css, styles/2-footer.css
 
-## 
+## 4. Search!
+
+4-index.html styles/4-common.css styles/3-header.css styles/3-footer.css styles/4-filters.css images/
