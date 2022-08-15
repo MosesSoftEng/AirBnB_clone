@@ -22,4 +22,8 @@
 
 6-index.html styles/4-common.css styles/3-header.css styles/3-footer.css styles/6-filters.css images/
 
+## 7. Display results
+
+7-index.html styles/4-common.css styles/3-header.css styles/3-footer.css styles/6-filters.css styles/7-places.css images/
+
 ## 
