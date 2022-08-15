@@ -1,0 +1,114 @@
+.places {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.places h1 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.places article {
+    border: solid 1px #FF5A5F;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 20px;
+    min-height: 380px;
+    padding: 20px;
+    width: 390px;
+    vertical-align: top;
+}
+
+.places article h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.places article .price_by_night {
+    border: solid 4px #FF5A5F;
+    border-radius: 50%;
+    color: #FF5A5F;
+    font-size: 30px;
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    min-width: 60px;
+}
+
+.places article .information {
+    border-top: solid 1px #DDDDDD;
+    border-bottom: solid 1px #DDDDDD;
+    position: relative;
+}
+
+.places article .information div {
+    display: inline-block;
+    padding-top: 80px;
+    margin-bottom: 16px;
+    width: 100px;
+}
+
+.places article .information .max_guest {
+    background-color: #FFFFFF;
+    background-image: url("../images/icon_group.png");
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}
+
+.places article .information .number_rooms {
+    background-color: #FFFFFF;
+    background-image: url("../images/icon_bed.png");
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}
+
+.places article .information .number_bathrooms {
+    background-color: #FFFFFF;
+    background-image: url("../images/icon_bath.png");
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}
+
+.places article .user, .places article .description {
+    text-align: left;
+    margin: 16px 0;
+}
+
+.places article .amenities, .places article .reviews {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.places article .amenities h2, .places article .reviews h2 {
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 16px;
+}
+
+.places article .amenities ul .pet_friendly {
+    background-color: #FFFFFF;
+    background-image: url("../images/icon_pets.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 45px;
+}
+
+.places article .amenities ul .tv {
+    background-color: #FFFFFF;
+    background-image: url("../images/icon_tv.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    height: 35px;
+    line-height: 30px;
+    padding-left: 45px;
+    margin: 8px auto;
+}
+
+.places article .amenities ul li h3 {
+    font-size: 14px;
+}
+
+.places article .amenities ul li p {
+    font-size: 12px;
+}
