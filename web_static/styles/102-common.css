@@ -21,6 +21,10 @@ button:hover {
     opacity: 0.9;
 }
 
+@media only screen and (min-width: 600px) {
+    
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -30,4 +34,6 @@ ul {
 .container {
     max-width: 1000px;
     margin: 30px auto;
+    width: 99%;
+    box-sizing: border-box;
 }
