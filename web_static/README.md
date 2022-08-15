@@ -30,4 +30,5 @@
 
 8-index.html styles/4-common.css styles/3-header.css styles/3-footer.css styles/6-filters.css styles/8-places.css images/
 
-## 
+## 9. Full details 
+

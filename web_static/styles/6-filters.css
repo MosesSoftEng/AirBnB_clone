@@ -10,7 +10,7 @@
     text-align: right;
 }
 
-.locations, .amenities {
+.filters .locations, .filters .amenities {
     height: 100%;
     width: 25%;
     float: left;
@@ -19,6 +19,7 @@
     padding-top: 20px;
     box-sizing: border-box;
     position: relative;
+    z-index: 999;
 }
 
 .locations {
