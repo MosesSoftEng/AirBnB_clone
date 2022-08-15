@@ -21,6 +21,12 @@ button:hover {
     opacity: 0.9;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     max-width: 1000px;
     margin: 30px auto;
